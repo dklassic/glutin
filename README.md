@@ -8,7 +8,7 @@ Glutin is a low-level library for OpenGL context creation, glutin_tao uses tao i
 
 ```toml
 [dependencies]
-glutin = "0.30.8"
+glutin = "0.31"
 ```
 
 ## [Documentation](https://docs.rs/glutin_tao)
@@ -32,7 +32,7 @@ Note that glutin aims at being a low-level brick in your rendering
 infrastructure. You are encouraged to write another layer of abstraction
 between glutin and your application.
 
-The minimum Rust version target by glutin is `1.65.0`.
+The minimum Rust version target by glutin is `1.70.0`.
 
 ## Platform-specific notes
 
