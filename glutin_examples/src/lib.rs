@@ -112,8 +112,7 @@ pub fn main(event_loop: winit::event_loop::EventLoop<()>) {
 
                 let window = window.take().unwrap_or_else(|| {
                     let window_builder = WindowBuilder::new().with_transparent(true);
-                    glutin_tao::finalize_window(window_target, window_builder, &gl_config)
-                        .unwrap()
+                    glutin_tao::finalize_window(window_target, window_builder, &gl_config).unwrap()
                 });
 
                 let attrs = window.build_surface_attributes(<_>::default());
